@@ -2,13 +2,13 @@ package = "Lua-SilvioWebEngine"
 version = "v0.1-1"
 
 source = {
-   url = "git://github.com/seu_usuario/SilvioWebEngine.git", -- Substitua pelo seu repositório
+   url = "git://github.com/SilvioNetoesBrasil/SilvioWebEngine.git", -- Substitua pelo seu repositório
    tag = "v0.1-1"
 }
 
 description = {
    summary = "Motor de renderização SilvioWebEngine e navegador SilvioWeb Browser em Lua e C++.",
-   homepage = "https://github.com/seu_usuario/SilvioWebEngine", -- Substitua pela sua homepage
+   homepage = "https://github.com/SilvioNetoesBrasil/SilvioWebEngine", -- Substitua pela sua homepage
    license = "MIT" -- Ou a licença que você escolher
 }
 
