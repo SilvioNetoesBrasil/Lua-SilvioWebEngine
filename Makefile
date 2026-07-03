@@ -28,7 +28,7 @@ LDFLAGS = -shared
 # Para sistemas antigos, a instalação do Lua e seus headers/libs seria manual.
 LUA_INCLUDE_DIR = /usr/local/include/lua5.4 # Exemplo para Lua 5.4
 LUA_LIB_DIR = /usr/local/lib
-LUA_LIBS = -llua -lm
+LUA_LIBS = -llua5.4 -lm
 
 # Nomes dos arquivos de saída
 ifeq ($(UNAME_S),Linux)
@@ -42,7 +42,7 @@ else ifeq ($(UNAME_S),MINGW32_NT-6.1)
     TARGET_LIB = $(PROJECT_NAME).dll
     LUA_INCLUDE_DIR = C:/Lua/5.4/include # Exemplo para Windows
     LUA_LIB_DIR = C:/Lua/5.4/lib
-    LUA_LIBS = -llua54
+    LUA_LIBS = -llua5.4
 else
     # Default para outros sistemas, pode precisar de ajustes
     TARGET_LIB = lib$(PROJECT_NAME).so
