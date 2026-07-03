@@ -2,7 +2,7 @@ package = "Lua-SilvioWebEngine"
 version = "v0.1-1"
 
 source = {
-   url = "git://github.com/SilvioNetoesBrasil/Lua-SilvioWebEngine.git",
+   url = "git://github.com/SilvioNetoesBrasil/Lua-SilvioWebEngine/",
    tag = "v0.1-1"
 }
 
@@ -13,7 +13,7 @@ description = {
 }
 
 dependencies = {
-   "lua >= 5.1"
+   "lua >= 5.3"
 }
 
 build = {
